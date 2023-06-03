@@ -1,0 +1,21 @@
+Los archivos .gitignore son utilizados en el sistema de control de versiones Git para especificar qué archivos o directorios se deben ignorar al realizar un seguimiento de los cambios en un repositorio. Cuando se crea un archivo .gitignore, se pueden agregar reglas que indican a Git qué archivos o patrones de archivos deben excluirse de los registros y las actualizaciones de seguimiento.
+
+ejempl0 1:
+
+Ignorar archivos de compilación:
+
+*.o
+*.exe
+-Estas reglas indican a Git que ignore cualquier archivo con la extensión (.o) o (.exe).
+
+ejemplo 2:
+
+Ignorar directorios o archivos generados automáticamente:
+
+*node_modules/
+*.DS_Store
+-La primera regla (node_modules/) indica a Git que ignore el directorio node_modules y todos sus contenidos.
+-La segunda regla (.DS_Store) es específica de macOS y se utiliza para ignorar los archivos ocultos .DS_Store, que son creados automáticamente por el sistema operativo en las carpetas.
+
+
+
